@@ -1,5 +1,5 @@
 body{
-    background-image: url('../img/demin.jpg');
+    background-color: transparent;
 }
 #login {
     display: flex;
