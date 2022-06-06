@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/demin.jpg');
+}
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: arial;
+    cursor: pointer;
+}
+.demin {
+    background-color: #6495ED;
+    padding: 40px;
+    border-radius: 10px;
+    width:280px;
+    cursor: pointer;
+}
+.demin-class{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.demin-class h2{
+    color: black;
+}
+.demin-class:after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: red;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+
+}
+.demin-content a {
+    color: black;
+    font-size: 12px;
+    opacity: 0.8;
+}
