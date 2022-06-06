@@ -42,7 +42,7 @@ background-image: url('../img/demin.jpg');
     background-image: url('../img/q.jpg');
 }
 .logo2 a{
-    background-color: red;
+    background-color: #B8860B;
     color: white;
     text-decoration: none;
     cursor: pointer;
