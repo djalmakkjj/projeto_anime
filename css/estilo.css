@@ -20,7 +20,7 @@ p{
 color: #E0FFFF;
 }
 body{
-background-image: url('../img/demin.jpg');
+
 }
 .corpo{
     margin: 0 auto;
@@ -42,7 +42,7 @@ background-image: url('../img/demin.jpg');
     background-image: url('../img/q.jpg');
 }
 .logo2 a{
-    background-color: #B8860B;
+    background-color: #00008B;
     color: white;
     text-decoration: none;
     cursor: pointer;
