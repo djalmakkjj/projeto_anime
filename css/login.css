@@ -1,5 +1,8 @@
 body{
-    background-image: url('../img/ka.jpg');
+    background-color:black;
+}
+a{
+    color:white;
 }
 #login {
     display: flex;
@@ -9,8 +12,12 @@ body{
     font-family: arial;
     cursor: pointer;
 }
+.botão{
+    padding-bottom: 50px;
+    cursor: pointer;
+}
 .demin {
-    background-color: #6495ED;
+    background-image: url('../img/111.png');
     padding: 40px;
     border-radius: 10px;
     width:280px;
@@ -18,14 +25,13 @@ body{
 }
 .demin-class{
     padding-bottom: 50px;
-    opacity: 0.8;
     cursor: pointer;
 }
 .demin-class h2{
-    color: black;
+    color: white;
 }
 .demin-class:after {
-    content: "";
+	content: "";
     width: 70px;
     height: 1px;
     background-color: red;
@@ -35,7 +41,11 @@ body{
 
 }
 .demin-content a {
-    color: black;
+    color: white;
     font-size: 12px;
-    opacity: 0.8;
+}
+.bord button{
+	border: 0px white;
+    border-style: solid;
+    cursor: pointer;
 }
