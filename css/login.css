@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-image: url('../img/8.jpg');
 }
 a{
     color:white;
@@ -11,10 +11,14 @@ a{
     height: 100vh;
     font-family: arial;
     cursor: pointer;
+    
 }
 .botão{
     padding-bottom: 50px;
     cursor: pointer;
+}
+.botão a{
+    text-decoration: none;
 }
 .demin {
     background-image: url('../img/111.png');
@@ -34,7 +38,6 @@ a{
 	content: "";
     width: 70px;
     height: 1px;
-    background-color: red;
     display: block;
     margin-top: -17px;
     margin-left: -5px;
@@ -43,9 +46,10 @@ a{
 .demin-content a {
     color: white;
     font-size: 12px;
+    text-decoration: none;
 }
 .bord button{
-	border: 0px white;
+	border: 0px red;
     border-style: solid;
     cursor: pointer;
 }

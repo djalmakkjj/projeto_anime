@@ -1,5 +1,5 @@
 body{
-	background-color:black;
+	background-image: url('../img/8.jpg');
 }
 p{
 	color:white;
@@ -17,6 +17,7 @@ a{
     height: 100vh;
     font-family: arial;
     cursor: pointer;
+
 }
 .dem{
 	background-image: url('../img/07.gif');
@@ -24,13 +25,18 @@ a{
     border-radius: 10px;
     width:300px;
     cursor: pointer;
+
 }
 .cadas:after {
     content: "";
     width: 150px;
     height: 1px;
-    background-color: red;
+    text-decoration: none;
     display: block;
     margin-top: -17px;
     margin-left: -5px;
+}
+.conta a{
+    text-decoration: none;
+    
 }
