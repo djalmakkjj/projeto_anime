@@ -17,7 +17,7 @@ body{
 .corpo{
     margin: 0 auto;
     width: 1300px;
-    min-height: 1293px;
+    min-height: 1393px;
     border: 3px white;
     border-style: solid;
     border-radius: 5px;
@@ -31,7 +31,7 @@ body{
     border-style: solid;
     border-radius: 10px;
     text-align: center;
-    background-image: url('../img/q.jpg');
+    background-image: url('../img/33.png');
 }
 .logo2 a{
     background-color: #00008B;
@@ -53,13 +53,12 @@ body{
     border-radius: 10px;
     text-align: center;
     float: left;
-    background-image: url('../img/ka.jpg');
 }
 .login{
     margin: 2px;
     padding: 10px;
     display: flex;
-    background-color: yellow;
+    background-color: orange;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -67,6 +66,7 @@ body{
     border-style: solid;
     border-radius: 10px;
     float: right;
+     list-style:none;
 }
 .centro {
     margin-top: 1px;
@@ -81,20 +81,20 @@ body{
     float: left;
     text-align: justify;
     font-family: calibri;
-    background-image: url('../img/4.jpg');
+    background-image: url('../img/66.png');
 }
 
 .rodape {
     margin-top: 1px;
     width: 100%;
-    height: 258px;
+    height: 358px;
     border: 0px black;
     border-style: solid;
     border-radius: 10px;
     text-align: center;
     float: left;
     text-align: center;
-    background-image: url('../img/4.jpg');
+    background-image: url('../img/.jpg');
 }
 
 #menu ul {
@@ -157,7 +157,7 @@ body{
     text-align: center;
  }     
 .itens{
-    display: flex;
+   display: flex;
     list-style:none;
     line-height: 28px;
     grid-gap: 40px;
@@ -165,6 +165,23 @@ body{
 .itens a {
     text-decoration: none;
     color:white;
-    padding: 5ms ease-in;
-
+    padding: 5,0ms ease-in;
+}
+.box h3{
+    color:red;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: calibri;
+}
+.bo{
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px white;
+    border-style: solid;
+    border-radius: 10px;
+    float: right;
 }
